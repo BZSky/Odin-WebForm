@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <title>A unique service</title>
+    <link rel="stylesheet" href="https://use.typekit.net/jrj7rud.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="background-logo">
+        <img class="background" src="./background.jpg" alt="background image" />
+        <div class="logo">
+          <img
+            class="logo"
+            src="./odin-lined.png"
+            alt="logo of the odin project"
+          /><span>Valhalla</span>
+        </div>
+        <div class="img-credit">
+          Photo by
+          <a
+            href="https://unsplash.com/@tepapa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Museum of New Zealand Te Papa Tongarewa</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/a-painting-of-a-mountain-stream-with-trees-DtGeJNizxHQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </div>
+      </div>
+      <div class="signup-section">
+        <h2 class="signup-title">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <i>now</i> to get started.<br />You <i>know</i> you want to.
+        </h2>
+        <form id="signupform" class="signup-form">
+          <h2 class="signup-form-header">Let's do this!</h2>
+
+          <div class="signup-form-name">
+            <input
+              id="name"
+              placeholder="First name"
+              name="name"
+              type="text"
+              value=""
+              pattern="^[^0-9]+$"
+              size="30"
+              maxlength="245"
+              required
+            />
+            <label for="name" data-help="Please, input your real name"
+              >First name</label
+            >
+          </div>
+          <div class="signup-form-lastname">
+            <input
+              id="lastname"
+              placeholder="Last name"
+              name="lastname"
+              type="text"
+              value=""
+              pattern="^[^0-9]+$"
+              size="30"
+              maxlength="245"
+              required
+            />
+            <label for="lastname" data-help="Please, input your real name"
+              >Last name</label
+            >
+          </div>
+          <div class="signup-form-email">
+            <input
+              id="email"
+              placeholder="Email"
+              name="email"
+              type="email"
+              value=""
+              size="30"
+              maxlength="100"
+              aria-describedby="email-notes"
+              required
+            />
+            <label for="email" data-help="Format email@email.com">Email</label>
+          </div>
+          <div class="signup-form-tel">
+            <input
+              id="tel"
+              placeholder="Phone number"
+              name="tel"
+              type="tel"
+              value=""
+              size="30"
+              maxlength="30"
+              required
+            />
+            <label for="tel" data-help="Should start with international code"
+              >Phone number</label
+            >
+          </div>
+          <div class="signup-form-passwd">
+            <input
+              id="passwd"
+              placeholder="Password"
+              name="passwd"
+              type="password"
+              value=""
+              size="30"
+              maxlength="30"
+              minlength="8"
+              required
+            />
+            <label
+              for="passwd"
+              data-help="Please use latin letters, symbols and numbers"
+              >Password</label
+            >
+          </div>
+          <div class="signup-form-passwd">
+            <input
+              id="pass-confirm"
+              placeholder="Confirm password"
+              name="pass-confirm"
+              type="password"
+              value=""
+              size="30"
+              maxlength="30"
+              minlength="8"
+              required
+            />
+            <label for="pass-confirm" data-help="Enter your password once more"
+              >Confirm password</label
+            >
+          </div>
+          <div class="form-submit">
+            <input
+              name="submit"
+              type="submit"
+              id="submit"
+              class="submit"
+              value="Create account"
+            />
+          </div>
+          <div class="login">
+            Already have an account? <a class="login" href="#">Log in</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
